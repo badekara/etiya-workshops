@@ -1,3 +1,4 @@
+--SQL WORKSHOP 2
 --1  Her kategorideki (CategoryID) ürün sayısını gösteren bir sorgu yazın.
 SELECT COUNT(DISTINCT(productid)) AS 'NUMBER OF PRODUCTS' , categoryid AS 'CATEGORY 'FROM Products
 GROUP BY categoryid
